@@ -1,7 +1,7 @@
-' Module: SCREEN.BAS
-' Project: Example module-based program using Future Library.
-' Purpose: Screen mode-related functions and sub-routines.
-' Modified: 2022-11-16 -- Added new ScreenPart$ function.
+' Module   : SCREEN.BAS
+' Project  : Example module-based program using Future Library.
+' Purpose  : Screen mode-related functions and sub-routines.
+' Modified : 2025-07-10 -- Aligned the colons in the header.
 
 ' $INCLUDE: 'C:\QBX\DECLARE.BI'
 ' $INCLUDE: 'C:\BC7\FL35\FUTURE.BI'

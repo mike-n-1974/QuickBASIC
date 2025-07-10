@@ -1,7 +1,7 @@
-' Module: CONFIG.BAS
-' Project: Example module-based program using Future Library.
-' Purpose: Configuration functions and sub-routines.
-' Modified: 2022-11-08 -- Added Setting$ parameter to ConfigManager.
+' Module   : CONFIG.BAS
+' Project  : Example module-based program using Future Library.
+' Purpose  : Configuration functions and sub-routines.
+' Modified : 2025-07-10 -- Aligned the colons in the header.
 
 ' $INCLUDE: 'C:\QBX\DECLARE.BI'
 ' $INCLUDE: 'C:\BC7\FL35\FUTURE.BI'

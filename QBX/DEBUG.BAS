@@ -1,7 +1,7 @@
-' Module: DEBUG.BAS
-' Project: Example module-based program using Future Library.
-' Purpose: Debugging-related functions and sub-routines.
-' Modified: 2024-11-19 -- Removed "Free memory:" preceding string.
+' Module   : DEBUG.BAS
+' Project  : Example module-based program using Future Library.
+' Purpose  : Debugging-related functions and sub-routines.
+' Modified : 2025-07-10 -- Aligned colons in the header and some code.
 
 ' $INCLUDE: 'C:\QBX\DECLARE.BI'
 ' $INCLUDE: 'C:\BC7\FL35\FUTURE.BI'
@@ -15,26 +15,26 @@ File% = FREEFILE
 OPEN "C:\QBX\DEBUG.LOG" FOR OUTPUT AS File%
 
 ' Print the four-line header.
-Header$ = "' Module: DEBUG.LOG" + CHR$(10) + "' Project: Example module-based program using Future Library." + CHR$(10) + "' Purpose: Debugging log file for possible error-solving." + CHR$(10) +  _
-"' Created: This file is overwritten on each program run." + CHR$(10)
+Header$ = "' Module  : DEBUG.LOG" + CHR$(10) + "' Project : Example module-based program using Future Library." + CHR$(10) + "' Purpose : Debugging log file for possible error-solving." + CHR$(10) +  _
+"' WARNING : This file is overwritten on each program run." + CHR$(10)
 PRINT #File%, Header$
 
 ' Print the development environment.
-Compiler$ = "' Compiler: Microsoft (R) QuickBASIC Extended v7.1 (PDS)."
+Compiler$ = "' Compiler : Microsoft (R) QuickBASIC Extended v7.1 (PDS)."
 PRINT #File%, Compiler$
 
 ' Print the Future.Library version.
-Library$ = "' Library: Installed is " + Future.Version$ + "."
+Library$ = "' Library  : Installed is " + Future.Version$ + "."
 PRINT #File%, Library$
 
 ' Print the available system memory.
 KBytes& = FreeXMSmemory& \ 1024
 MBytes& = KBytes& \ 1024
-Memory$ = "' Memory: " + LTRIM$(STR$(MBytes&)) + " MB (" + LTRIM$(STR$(KBytes&)) + " kilobytes) of Extended (XMS) memory."
+Memory$ = "' Memory   : " + LTRIM$(STR$(MBytes&)) + " MB (" + LTRIM$(STR$(KBytes&)) + " kilobytes) of Extended (XMS) memory."
 PRINT #File%, Memory$
 
 ' Print the operating system version.
-Version$ = "' System: " + DebugSystem$("VER")
+Version$ = "' System   : " + DebugSystem$("VER")
 PRINT #File%, Version$
 
 CLOSE File%

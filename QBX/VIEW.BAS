@@ -1,7 +1,7 @@
-' Module: VIEW.BAS
-' Project: Example module-based program using Future Library.
-' Purpose: View management functions and sub-routines.
-' Modified: 2022-12-16 -- Added SELECT..CASE for View$ options.
+' Module   : VIEW.BAS
+' Project  : Example module-based program using Future Library.
+' Purpose  : View management functions and sub-routines.
+' Modified : 2025-07-10 -- Aligned the colons in the header.
 
 ' $INCLUDE: 'C:\QBX\DECLARE.BI'
 ' $INCLUDE: 'C:\BC7\FL35\FUTURE.BI'

@@ -1,7 +1,7 @@
-' Module: MENU.BAS
-' Project: Example module-based program using Future Library.
-' Purpose: Menu handling functions and sub-routines.
-' Modified: 2022-10-22 -- Added 'Edit' menu items in DATA statements.
+' Module   : MENU.BAS
+' Project  : Example module-based program using Future Library.
+' Purpose  : Menu handling functions and sub-routines.
+' Modified : 2025-07-10 -- Added separating lines in code below.
 
 ' $INCLUDE: 'C:\QBX\DECLARE.BI'
 ' $INCLUDE: 'C:\BC7\FL35\FUTURE.BI'
@@ -12,11 +12,12 @@ DIM SHARED Menu(1 TO 5) AS MenuType
 ' Variables for menu drawing and item IDs.
 DIM SHARED Banner%, ItemID%, Shadow%, Solid%, Spacing%
 
+' -------------------------------------------------------------------------------
 
 ' NOTE: The menu DATA listed below follows this strict formatting:
-' ----------------------------------------------------------------
+' -------------------------------------------------------------------------------
 ' DATA Position, "Title", Span, Count, "Items..." -> (Name/Keys/State)
-'      (A)        (B)     (C)   (D)     (E)          (F)  (G)   (H)
+'      (A)        (B)     (C)   (D)     (E)           (F)  (G)  (H)
 '
 ' A. Position (in pixels) is from the left and divisble by eight.
 '    The distance is up to the first letter of the menu Title.
@@ -43,6 +44,7 @@ DATA 120,"Views",11,4,"Item ^1//On,Item ^2...//Off,-,Item ^3...//Off"
 DATA 176,"Options",18,4,"^Mouse.../Ctrl+M/On,-,Item ^4...//Off,Item ^5...//Off"
 DATA 248,"Help",11,4,"DEBUG.^LOG//On,-,Item ^6...//Off,Item ^7...//Off"
 
+' -------------------------------------------------------------------------------
 
 ' NOTE: Working out menu layouts (including key sequences):
 ' ---------------------------------------------------------
@@ -57,6 +59,8 @@ DATA 248,"Help",11,4,"DEBUG.^LOG//On,-,Item ^6...//Off,Item ^7...//Off"
 ' | Exit      Alt+X | | Clear         |
 ' +-----------------+ | Delete    Del |
 '                     +---------------+
+
+' -------------------------------------------------------------------------------
 
 SUB MenuAttributes
 
@@ -272,6 +276,7 @@ CALL Future.MouseOn
 ' Debug in the MenuManager.
 CALL DebugOutput("MENU", "In MenuManager before the input loop.")
 
+' -------------------------------------------------------------------------------
 
 ' DO..LOOP to capture menu input.
 DO
@@ -329,6 +334,7 @@ DO
 
 LOOP
 
+' -------------------------------------------------------------------------------
 
 ' Debug in the MenuManager.
 CALL DebugOutput("MENU", "In MenuManager after the input loop.")
@@ -443,6 +449,7 @@ DO
 
 LOOP UNTIL NewPos% = 0
 
+' -------------------------------------------------------------------------------
 
 ' Define highlighted menu item parts.
 HiLite$ = RTRIM$(Options(Y%).Name)

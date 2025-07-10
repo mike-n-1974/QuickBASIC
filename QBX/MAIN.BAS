@@ -1,7 +1,7 @@
-' Module: MAIN.BAS
-' Project: Example module-based program using Future Library.
-' Purpose: Main program loop that calls relevant managers.
-' Modified: 2022-09-10 -- Moved debug header code to DEBUG.BAS
+' Module   : MAIN.BAS
+' Project  : Example module-based program using Future Library.
+' Purpose  : Main program loop that calls relevant managers.
+' Modified : 2025-07-10 -- Added separating lines in code below.
 
 ' $INCLUDE: 'C:\QBX\DECLARE.BI'
 ' $INCLUDE: 'C:\BC7\FL35\FUTURE.BI'
@@ -21,6 +21,7 @@ CALL SetFont(1)
 ' Debug of first two CALLs in the main module.
 CALL DebugOutput("MAIN", "Initialise the screen and set default font.")
 
+' -------------------------------------------------------------------------------
 
 ' Set initial status values.
 status.Quit = False
@@ -29,6 +30,7 @@ status.Saved = False
 ' Debug of initial values above.
 CALL DebugOutput("MAIN", "Set initial Quit and Saved values to false.")
 
+' -------------------------------------------------------------------------------
 
 ' Set the default mouse pointer.
 CALL MouseCursor("Arrow")
@@ -43,6 +45,7 @@ CALL DebugOutput("MAIN", "Set the mouse cursor and draw the menu.")
 ' Debug of main module before the loop.
 CALL DebugOutput("MAIN", "In this module before the application loop.")
 
+' -------------------------------------------------------------------------------
 
 ' Begin the main application loop.
 DO
@@ -59,6 +62,7 @@ DO
 ' End loop on quit status being true.
 LOOP UNTIL status.Quit = True
 
+' -------------------------------------------------------------------------------
 
 ' Debug of main module after the loop.
 CALL DebugOutput("MAIN", "In this module after the application loop.")

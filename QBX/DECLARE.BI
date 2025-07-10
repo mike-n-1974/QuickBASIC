@@ -1,7 +1,7 @@
-' Module: DECLARE.BI
-' Project: Example module-based program using Future Library.
-' Purpose: TYPEs, COMMON, CONST, FUNCTIONs, and SUBs.
-' Modified: 2022-11-20 -- Added MousePreview sub-routine.
+' Module   : DECLARE.BI
+' Project  : Example module-based program using Future Library.
+' Purpose  : TYPEs, COMMON, CONST, FUNCTIONs, and SUBs.
+' Modified : 2025-07-10 -- Aligned the colons in the header.
 
 ' Application defined TYPEs.
 TYPE ConfigType
@@ -114,4 +114,3 @@ DECLARE SUB ScreenInit ()
 DECLARE SUB ScreenManager (State$)
 DECLARE SUB ScreenMode (X%, Y%, B%)
 DECLARE SUB ViewManager (View$)
-

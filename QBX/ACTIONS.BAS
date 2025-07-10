@@ -1,7 +1,7 @@
-' Module: ACTIONS.BAS
-' Project: Example module-based program using Future Library.
-' Purpose: Action handling functions and sub-routines.
-' Modified: 2022-12-15 -- Removed 'Dialog' from SELECT CASE Object$.
+' Module   : ACTIONS.BAS
+' Project  : Example module-based program using Future Library.
+' Purpose  : Action handling functions and sub-routines.
+' Modified : 2025-07-10 -- Fixed indent under some CASE statements.
 
 ' $INCLUDE: 'C:\QBX\DECLARE.BI'
 ' $INCLUDE: 'C:\BC7\FL35\FUTURE.BI'
@@ -28,20 +28,20 @@ SELECT CASE Object$
 				
       ' File menu IDs in 1100 range.
       CASE 1101 ' "New"
-	  ' TODO: Check saved status first...
+	    ' TODO: Check saved status first...
 		 
       CASE 1102 ' "Open"
-	  ' TODO: Check saved status first...
+	    ' TODO: Check saved status first...
 		 
       CASE 1104 ' "Save"
-	  ' TODO: Call FileManager...
+	    ' TODO: Call FileManager...
 		 
       CASE 1105 ' "Save As"
-	  ' TODO: Call FileManager...
+	    ' TODO: Call FileManager...
 		 
       CASE 1107 ' "Exit"
-	  ' TODO: Check saved status first...
-	  Status.Quit = True
+	    ' TODO: Check saved status first...
+	    Status.Quit = True
 	  
       ' TODO: Add more cases for menus!
 	    

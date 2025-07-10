@@ -1,11 +1,10 @@
-' Module: KEYS.BAS
-' Project: Example module-based program using Future Library.
-' Purpose: Keyboard handling functions and sub-routines.
-' Modified: 2022-11-18 -- Added case for Alt + E keys pressed.
+' Module   : KEYS.BAS
+' Project  : Example module-based program using Future Library.
+' Purpose  : Keyboard handling functions and sub-routines.
+' Modified : 2025-07-10 -- Aligned the colons in the header.
 
 ' $INCLUDE: 'C:\QBX\DECLARE.BI'
 ' $INCLUDE: 'C:\BC7\FL35\FUTURE.BI'
-
 
 ' NOTE: FOR REFERENCE ONLY (key codes for KeyManager)
 ' ---------------------------------------------------------

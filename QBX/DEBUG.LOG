@@ -1,14 +1,14 @@
-' Module: DEBUG.LOG
-' Project: Example module-based program using Future Library.
-' Purpose: Debugging log file for possible error-solving.
-' Created: This file is overwritten on each program run.
+' Module  : DEBUG.LOG
+' Project : Example module-based program using Future Library.
+' Purpose : Debugging log file for possible error-solving.
+' WARNING : This file is overwritten on each program run.
 
-' Compiler: Microsoft (R) QuickBASIC Extended v7.1 (PDS).
-' Library: Installed is Future.Library v3.50.
-' Memory: 62 MB (63680 kilobytes) of Extended (XMS) memory.
-' System: DOSBox-X version 2025.01.01 (SDL2). Reported DOS version 5.00.
+' Compiler : Microsoft (R) QuickBASIC Extended v7.1 (PDS).
+' Library  : Installed is Future.Library v3.50.
+' Memory   : 62 MB (63680 kilobytes) of Extended (XMS) memory.
+' System   : DOSBox-X version 2025.05.03 (SDL2). Reported DOS version 5.00.
 
-2025-01-11 21:22:27 - SCREEN - Checking for VESA modes (if any)...
+2025-07-10 20:14:02 - SCREEN - Checking for VESA modes (if any)...
  - 640x400 8 Bits (100h)
  - 640x480 8 Bits (101h)
  - 800x600 4 Bits (102h)
@@ -130,133 +130,145 @@
  - 1920x1440 8 Bits (351h)
  - No VESA mode found! Or at the end of all modes.
 
-2025-01-11 21:22:29 - SCREEN - Testing that a CONFIG.INI file does exist!
+2025-07-10 20:14:03 - SCREEN - Testing that a CONFIG.INI file does not exist!
 
-2025-01-11 21:22:29 - SCREEN - Video mode set to 640 x 480 8 Bits (256 colors).
+2025-07-10 20:14:03 - SCREEN - Video mode set to 640 x 480 8 Bits (256 colors).
 ' DGROUP = 17246 bytes, Far = 90672 bytes, & XMS = 63680 kilobytes.
 
-2025-01-11 21:22:29 - MAIN - Initialise the screen and set default font.
+2025-07-10 20:14:04 - MAIN - Initialise the screen and set default font.
 ' DGROUP = 17252 bytes, Far = 90880 bytes, & XMS = 63680 kilobytes.
 
-2025-01-11 21:22:29 - MAIN - Set initial Quit and Saved values to false.
+2025-07-10 20:14:04 - MAIN - Set initial Quit and Saved values to false.
 ' DGROUP = 17252 bytes, Far = 90880 bytes, & XMS = 63680 kilobytes.
 
-2025-01-11 21:22:29 - MENU - MenuAttributes: Menu array uses 383 bytes.
+2025-07-10 20:14:04 - MENU - MenuAttributes: Menu array uses 383 bytes.
 ' DGROUP = 17252 bytes, Far = 90880 bytes, & XMS = 63680 kilobytes.
 
-2025-01-11 21:22:29 - MAIN - Set the mouse cursor and draw the menu.
+2025-07-10 20:14:04 - MAIN - Set the mouse cursor and draw the menu.
 ' DGROUP = 17252 bytes, Far = 90896 bytes, & XMS = 63680 kilobytes.
 
-2025-01-11 21:22:29 - MAIN - In this module before the application loop.
+2025-07-10 20:14:04 - MAIN - In this module before the application loop.
 ' DGROUP = 17252 bytes, Far = 90880 bytes, & XMS = 63680 kilobytes.
 
-2025-01-11 21:22:33 - MENU - MenuLabels.: X%=43, Y%=11, Label=1, & Mode=Desktop
+2025-07-10 20:14:08 - MENU - MenuLabels.: X%=38, Y%=6, Label=1, & Mode=Desktop
 ' DGROUP = 17252 bytes, Far = 90880 bytes, & XMS = 63680 kilobytes.
 
-2025-01-11 21:22:33 - MENU - MenuOptions: Item=[^New], Keys=[Ctrl+N], State=[On], & Shortcut=[N]
+2025-07-10 20:14:08 - MENU - MenuOptions: Item=[^New], Keys=[Ctrl+N], State=[On], & Shortcut=[N]
 ' DGROUP = 17252 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:33 - MENU - MenuOptions: X%=1, Y%=1, Z$=Down, & ID=1101
+2025-07-10 20:14:08 - MENU - MenuOptions: X%=1, Y%=1, Z$=Down, & ID=1101
 ' DGROUP = 17252 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:34 - MENU - MenuOptions: Options array uses 77 bytes.
+2025-07-10 20:14:08 - MENU - MenuOptions: Options array uses 77 bytes.
 ' DGROUP = 17252 bytes, Far = 90384 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:34 - MENU - In MenuManager before the input loop.
+2025-07-10 20:14:09 - MENU - In MenuManager before the input loop.
 ' DGROUP = 17252 bytes, Far = 90816 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:37 - MENU - MenuOptions: Item=[^Copy], Keys=[Ctrl+C], State=[On], & Shortcut=[C]
-' DGROUP = 17624 bytes, Far = 88976 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:10 - MENU - MenuLabels.: X%=97, Y%=6, Label=2, & Mode=Menu
+' DGROUP = 17252 bytes, Far = 90800 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:37 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
-' DGROUP = 17656 bytes, Far = 88976 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:10 - MENU - MenuOptions: Item=[^Copy], Keys=[Ctrl+C], State=[On], & Shortcut=[C]
+' DGROUP = 17754 bytes, Far = 88912 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:37 - MENU - MenuOptions: Options array uses 86 bytes.
-' DGROUP = 17656 bytes, Far = 88992 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:10 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
+' DGROUP = 17786 bytes, Far = 88928 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:37 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
-' DGROUP = 17656 bytes, Far = 89440 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:10 - MENU - MenuOptions: Options array uses 86 bytes.
+' DGROUP = 17786 bytes, Far = 88928 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:37 - MENU - MenuOptions: Options array uses 86 bytes.
-' DGROUP = 17656 bytes, Far = 89440 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:11 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
+' DGROUP = 17786 bytes, Far = 89376 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:38 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
-' DGROUP = 17656 bytes, Far = 89872 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:11 - MENU - MenuOptions: Options array uses 86 bytes.
+' DGROUP = 17786 bytes, Far = 89376 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:38 - MENU - MenuOptions: Options array uses 86 bytes.
-' DGROUP = 17656 bytes, Far = 89888 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:11 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
+' DGROUP = 17786 bytes, Far = 89824 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:38 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
-' DGROUP = 17656 bytes, Far = 90336 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:11 - MENU - MenuOptions: Options array uses 86 bytes.
+' DGROUP = 17786 bytes, Far = 89824 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:38 - MENU - MenuOptions: Options array uses 86 bytes.
-' DGROUP = 17656 bytes, Far = 90336 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:11 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
+' DGROUP = 17786 bytes, Far = 90272 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:38 - MENU - MenuOptions: Item=[Item ^1], Keys=[], State=[On], & Shortcut=[1]
-' DGROUP = 17656 bytes, Far = 90480 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:11 - MENU - MenuOptions: Options array uses 86 bytes.
+' DGROUP = 17786 bytes, Far = 90272 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:38 - MENU - MenuOptions: X%=3, Y%=1, Z$=Down, & ID=1301
-' DGROUP = 17656 bytes, Far = 90496 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:12 - MENU - MenuLabels.: X%=131, Y%=9, Label=3, & Mode=Menu
+' DGROUP = 17786 bytes, Far = 90784 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:38 - MENU - MenuOptions: Options array uses 40 bytes.
-' DGROUP = 17656 bytes, Far = 90496 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:13 - MENU - MenuOptions: Item=[Item ^1], Keys=[], State=[On], & Shortcut=[1]
+' DGROUP = 17786 bytes, Far = 90416 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:39 - MENU - MenuOptions: Item=[^Mouse...], Keys=[Ctrl+M], State=[On], & Shortcut=[M]
-' DGROUP = 17656 bytes, Far = 90464 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:13 - MENU - MenuOptions: X%=3, Y%=1, Z$=Down, & ID=1301
+' DGROUP = 17786 bytes, Far = 90432 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:39 - MENU - MenuOptions: X%=4, Y%=1, Z$=Down, & ID=1401
-' DGROUP = 17656 bytes, Far = 90480 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:13 - MENU - MenuOptions: Options array uses 40 bytes.
+' DGROUP = 17786 bytes, Far = 90432 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:39 - MENU - MenuOptions: Options array uses 48 bytes.
-' DGROUP = 17656 bytes, Far = 90480 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:14 - MENU - MenuLabels.: X%=44, Y%=10, Label=1, & Mode=Menu
+' DGROUP = 17786 bytes, Far = 90784 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:40 - MENU - MenuOptions: Item=[DEBUG.^LOG], Keys=[], State=[On], & Shortcut=[L]
-' DGROUP = 17656 bytes, Far = 90496 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:15 - MENU - MenuOptions: Item=[^New], Keys=[Ctrl+N], State=[On], & Shortcut=[N]
+' DGROUP = 17786 bytes, Far = 90288 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:40 - MENU - MenuOptions: X%=5, Y%=1, Z$=Down, & ID=1501
-' DGROUP = 17656 bytes, Far = 90496 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:15 - MENU - MenuOptions: X%=1, Y%=1, Z$=Down, & ID=1101
+' DGROUP = 17786 bytes, Far = 90304 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:40 - MENU - MenuOptions: Options array uses 43 bytes.
-' DGROUP = 17656 bytes, Far = 90496 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:15 - MENU - MenuOptions: Options array uses 77 bytes.
+' DGROUP = 17786 bytes, Far = 90304 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:43 - ACTION - ActionManager: Menu item ID=1501 selected with Enter key.
-' DGROUP = 17656 bytes, Far = 90752 bytes, & XMS = 63616 kilobytes.
+2025-07-10 20:14:16 - MENU - MenuOptions: Item=[^Open...], Keys=[Ctrl+O], State=[On], & Shortcut=[O]
+' DGROUP = 17786 bytes, Far = 90336 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:43 - MENU - In MenuManager after the input loop.
-' DGROUP = 17656 bytes, Far = 90800 bytes, & XMS = 63616 kilobytes.
+2025-07-10 20:14:16 - MENU - MenuOptions: X%=1, Y%=2, Z$=Down, & ID=1102
+' DGROUP = 17786 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:48 - MENU - MenuLabels.: X%=32, Y%=4, Label=1, & Mode=Desktop
-' DGROUP = 17656 bytes, Far = 90864 bytes, & XMS = 63616 kilobytes.
+2025-07-10 20:14:16 - MENU - MenuOptions: Options array uses 77 bytes.
+' DGROUP = 17786 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:48 - MENU - MenuOptions: Item=[^New], Keys=[Ctrl+N], State=[On], & Shortcut=[N]
-' DGROUP = 17656 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:17 - MENU - MenuOptions: Item=[E^xit], Keys=[Alt+X], State=[On], & Shortcut=[x]
+' DGROUP = 17786 bytes, Far = 88640 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:48 - MENU - MenuOptions: X%=1, Y%=1, Z$=Down, & ID=1101
-' DGROUP = 17656 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:17 - MENU - MenuOptions: X%=1, Y%=7, Z$=Down, & ID=1107
+' DGROUP = 17812 bytes, Far = 88656 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:49 - MENU - MenuOptions: Options array uses 77 bytes.
-' DGROUP = 17656 bytes, Far = 90384 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:17 - MENU - MenuOptions: Options array uses 77 bytes.
+' DGROUP = 17812 bytes, Far = 88656 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:49 - MENU - In MenuManager before the input loop.
-' DGROUP = 17656 bytes, Far = 90816 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:17 - MENU - MenuOptions: X%=1, Y%=7, Z$=Down, & ID=1107
+' DGROUP = 17812 bytes, Far = 89088 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:52 - MENU - MenuOptions: Item=[E^xit], Keys=[Alt+X], State=[On], & Shortcut=[x]
-' DGROUP = 17656 bytes, Far = 90352 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:17 - MENU - MenuOptions: Options array uses 77 bytes.
+' DGROUP = 17812 bytes, Far = 89088 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:52 - MENU - MenuOptions: X%=1, Y%=7, Z$=Up, & ID=1107
-' DGROUP = 17656 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:18 - MENU - MenuOptions: X%=1, Y%=7, Z$=Down, & ID=1107
+' DGROUP = 17812 bytes, Far = 89504 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:52 - MENU - MenuOptions: Options array uses 77 bytes.
-' DGROUP = 17656 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
+2025-07-10 20:14:18 - MENU - MenuOptions: Options array uses 77 bytes.
+' DGROUP = 17812 bytes, Far = 89520 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:54 - ACTION - ActionManager: Menu item ID=1107 selected with Enter key.
-' DGROUP = 17656 bytes, Far = 90752 bytes, & XMS = 63616 kilobytes.
+2025-07-10 20:14:18 - MENU - MenuOptions: X%=1, Y%=7, Z$=Down, & ID=1107
+' DGROUP = 17812 bytes, Far = 89936 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:54 - MENU - In MenuManager after the input loop.
-' DGROUP = 17656 bytes, Far = 90800 bytes, & XMS = 63616 kilobytes.
+2025-07-10 20:14:18 - MENU - MenuOptions: Options array uses 77 bytes.
+' DGROUP = 17812 bytes, Far = 89936 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:54 - MAIN - In this module after the application loop.
-' DGROUP = 17656 bytes, Far = 90880 bytes, & XMS = 63616 kilobytes.
+2025-07-10 20:14:18 - MENU - MenuOptions: X%=1, Y%=7, Z$=Down, & ID=1107
+' DGROUP = 17812 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
 
-2025-01-11 21:22:54 - MAIN - Now ending the program.
-' DGROUP = 17656 bytes, Far = 90896 bytes, & XMS = 63616 kilobytes.
+2025-07-10 20:14:18 - MENU - MenuOptions: Options array uses 77 bytes.
+' DGROUP = 17812 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
+
+2025-07-10 20:14:18 - ACTION - ActionManager: Menu item ID=1107 selected with Enter key.
+' DGROUP = 17812 bytes, Far = 90752 bytes, & XMS = 63616 kilobytes.
+
+2025-07-10 20:14:19 - MENU - In MenuManager after the input loop.
+' DGROUP = 17812 bytes, Far = 90800 bytes, & XMS = 63616 kilobytes.
+
+2025-07-10 20:14:19 - MAIN - In this module after the application loop.
+' DGROUP = 17812 bytes, Far = 90880 bytes, & XMS = 63616 kilobytes.
+
+2025-07-10 20:14:19 - MAIN - Now ending the program.
+' DGROUP = 17812 bytes, Far = 90896 bytes, & XMS = 63616 kilobytes.

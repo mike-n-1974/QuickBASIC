@@ -13,6 +13,7 @@
 
 - An example of a module-based program written in QuickBASIC (QBX).
 - Created for the challenge and fun of it, but it could be useful for something.
+- Don't expect regular updates to this project, consider it archived.
 
 ## Development
 

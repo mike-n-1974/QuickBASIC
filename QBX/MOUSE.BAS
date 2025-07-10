@@ -1,7 +1,7 @@
-' Module: MOUSE.BAS
-' Project: Example module-based program using Future Library.
-' Purpose: Mouse handling functions and sub-routines.
-' Modified: 2022-07-18 -- Updated project description in header.
+' Module   : MOUSE.BAS
+' Project  : Example module-based program using Future Library.
+' Purpose  : Mouse handling functions and sub-routines.
+' Modified : 2025-07-10 -- Aligned the colons in the header.
 
 ' $INCLUDE: 'C:\QBX\DECLARE.BI'
 ' $INCLUDE: 'C:\BC7\FL35\FUTURE.BI'
@@ -42,6 +42,8 @@ DATA 03,03,03,00,15,15,15,15,15,15,15,15,15,00,03,03
 DATA 03,03,03,03,00,15,15,15,15,15,15,15,00,03,03,03
 DATA 03,03,03,03,03,00,15,15,15,15,15,15,00,03,03,03
 DATA 03,03,03,03,03,00,15,15,15,15,15,15,00,03,03,03
+
+' -------------------------------------------------------------------------------
 
 SUB MouseCursor (Shape$)
 
