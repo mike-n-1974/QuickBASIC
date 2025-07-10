@@ -1,0 +1,262 @@
+' Module: DEBUG.LOG
+' Project: Example module-based program using Future Library.
+' Purpose: Debugging log file for possible error-solving.
+' Created: This file is overwritten on each program run.
+
+' Compiler: Microsoft (R) QuickBASIC Extended v7.1 (PDS).
+' Library: Installed is Future.Library v3.50.
+' Memory: 62 MB (63680 kilobytes) of Extended (XMS) memory.
+' System: DOSBox-X version 2025.01.01 (SDL2). Reported DOS version 5.00.
+
+2025-01-11 21:22:27 - SCREEN - Checking for VESA modes (if any)...
+ - 640x400 8 Bits (100h)
+ - 640x480 8 Bits (101h)
+ - 800x600 4 Bits (102h)
+ - 800x600 8 Bits (103h)
+ - 1024x768 4 Bits (104h)
+ - 1024x768 8 Bits (105h)
+ - 1280x1024 4 Bits (106h)
+ - 1280x1024 8 Bits (107h)
+ - 80x60 4 Bits (108h)
+ - 132x25 4 Bits (109h)
+ - 132x43 4 Bits (10Ah)
+ - 132x50 4 Bits (10Bh)
+ - 132x60 4 Bits (10Ch)
+ - 320x200 15 Bits (10Dh)
+ - 320x200 16 Bits (10Eh)
+ - 320x200 32 Bits (10Fh)
+ - 640x480 15 Bits (110h)
+ - 640x480 16 Bits (111h)
+ - 640x480 32 Bits (112h)
+ - 800x600 15 Bits (113h)
+ - 800x600 16 Bits (114h)
+ - 800x600 32 Bits (115h)
+ - 1024x768 15 Bits (116h)
+ - 1024x768 16 Bits (117h)
+ - 1024x768 32 Bits (118h)
+ - 1280x1024 15 Bits (119h)
+ - 1280x1024 16 Bits (11Ah)
+ - 640x350 8 Bits (11Ch)
+ - 640x350 15 Bits (11Dh)
+ - 640x350 16 Bits (11Fh)
+ - 1600x1200 8 Bits (120h)
+ - 320x240 16 Bits (136h)
+ - 640x350 32 Bits (142h)
+ - 320x480 8 Bits (150h)
+ - 320x240 8 Bits (151h)
+ - 320x400 8 Bits (152h)
+ - 320x200 8 Bits (153h)
+ - 400x300 8 Bits (159h)
+ - 400x300 16 Bits (15Ah)
+ - 512x384 8 Bits (15Ch)
+ - 512x384 16 Bits (15Dh)
+ - 320x240 15 Bits (160h)
+ - 320x400 15 Bits (161h)
+ - 320x480 15 Bits (162h)
+ - 640x400 15 Bits (165h)
+ - 320x480 8 Bits (166h)
+ - 320x240 16 Bits (170h)
+ - 320x400 16 Bits (171h)
+ - 320x480 16 Bits (172h)
+ - 640x400 16 Bits (175h)
+ - 320x240 32 Bits (190h)
+ - 320x400 32 Bits (191h)
+ - 320x480 32 Bits (192h)
+ - 320x200 32 Bits (1F0h)
+ - 640x480 32 Bits (1F1h)
+ - 800x600 32 Bits (1F2h)
+ - 1024x768 32 Bits (1F3h)
+ - 640x480 8 Bits (201h)
+ - 800x600 4 Bits (202h)
+ - 800x600 8 Bits (203h)
+ - 1024x768 4 Bits (204h)
+ - 1024x768 8 Bits (205h)
+ - 1280x960 4 Bits (206h)
+ - 1152x864 8 Bits (207h)
+ - 1280x1024 4 Bits (208h)
+ - 1152x864 15 Bits (209h)
+ - 1152x864 16 Bits (20Ah)
+ - 1152x864 32 Bits (20Bh)
+ - 640x400 32 Bits (213h)
+ - 720x480 4 Bits (21Bh)
+ - 720x480 8 Bits (21Ch)
+ - 720x480 15 Bits (21Dh)
+ - 720x480 16 Bits (21Eh)
+ - 720x480 32 Bits (21Fh)
+ - 848x480 4 Bits (220h)
+ - 848x480 8 Bits (221h)
+ - 848x480 15 Bits (222h)
+ - 848x480 16 Bits (223h)
+ - 848x480 32 Bits (224h)
+ - 1280x800 4 Bits (225h)
+ - 1280x800 8 Bits (226h)
+ - 1280x800 15 Bits (227h)
+ - 1280x800 16 Bits (228h)
+ - 1280x800 32 Bits (229h)
+ - 1280x960 4 Bits (22Ah)
+ - 1280x960 8 Bits (22Bh)
+ - 1280x960 15 Bits (22Ch)
+ - 1280x960 16 Bits (22Dh)
+ - 1400x1050 8 Bits (230h)
+ - 1400x1050 15 Bits (231h)
+ - 1400x1050 16 Bits (232h)
+ - 1440x900 4 Bits (234h)
+ - 1440x900 8 Bits (235h)
+ - 1440x900 15 Bits (236h)
+ - 1440x900 16 Bits (237h)
+ - 1600x1200 4 Bits (239h)
+ - 1600x1200 15 Bits (23Ah)
+ - 1600x1200 16 Bits (23Bh)
+ - 1280x720 4 Bits (23Dh)
+ - 1280x720 8 Bits (23Eh)
+ - 1280x720 15 Bits (23Fh)
+ - 1280x720 16 Bits (240h)
+ - 1280x720 32 Bits (241h)
+ - 1920x1080 4 Bits (242h)
+ - 1920x1080 8 Bits (243h)
+ - 1920x1080 15 Bits (244h)
+ - 1920x1080 16 Bits (245h)
+ - 960x720 4 Bits (247h)
+ - 960x720 8 Bits (248h)
+ - 960x720 15 Bits (249h)
+ - 960x720 16 Bits (24Ah)
+ - 960x720 32 Bits (24Bh)
+ - 1440x1080 4 Bits (24Ch)
+ - 1440x1080 8 Bits (24Dh)
+ - 1440x1080 15 Bits (24Eh)
+ - 1440x1080 16 Bits (24Fh)
+ - 1400x1050 4 Bits (250h)
+ - 1920x1440 4 Bits (350h)
+ - 1920x1440 8 Bits (351h)
+ - No VESA mode found! Or at the end of all modes.
+
+2025-01-11 21:22:29 - SCREEN - Testing that a CONFIG.INI file does exist!
+
+2025-01-11 21:22:29 - SCREEN - Video mode set to 640 x 480 8 Bits (256 colors).
+' DGROUP = 17246 bytes, Far = 90672 bytes, & XMS = 63680 kilobytes.
+
+2025-01-11 21:22:29 - MAIN - Initialise the screen and set default font.
+' DGROUP = 17252 bytes, Far = 90880 bytes, & XMS = 63680 kilobytes.
+
+2025-01-11 21:22:29 - MAIN - Set initial Quit and Saved values to false.
+' DGROUP = 17252 bytes, Far = 90880 bytes, & XMS = 63680 kilobytes.
+
+2025-01-11 21:22:29 - MENU - MenuAttributes: Menu array uses 383 bytes.
+' DGROUP = 17252 bytes, Far = 90880 bytes, & XMS = 63680 kilobytes.
+
+2025-01-11 21:22:29 - MAIN - Set the mouse cursor and draw the menu.
+' DGROUP = 17252 bytes, Far = 90896 bytes, & XMS = 63680 kilobytes.
+
+2025-01-11 21:22:29 - MAIN - In this module before the application loop.
+' DGROUP = 17252 bytes, Far = 90880 bytes, & XMS = 63680 kilobytes.
+
+2025-01-11 21:22:33 - MENU - MenuLabels.: X%=43, Y%=11, Label=1, & Mode=Desktop
+' DGROUP = 17252 bytes, Far = 90880 bytes, & XMS = 63680 kilobytes.
+
+2025-01-11 21:22:33 - MENU - MenuOptions: Item=[^New], Keys=[Ctrl+N], State=[On], & Shortcut=[N]
+' DGROUP = 17252 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:33 - MENU - MenuOptions: X%=1, Y%=1, Z$=Down, & ID=1101
+' DGROUP = 17252 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:34 - MENU - MenuOptions: Options array uses 77 bytes.
+' DGROUP = 17252 bytes, Far = 90384 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:34 - MENU - In MenuManager before the input loop.
+' DGROUP = 17252 bytes, Far = 90816 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:37 - MENU - MenuOptions: Item=[^Copy], Keys=[Ctrl+C], State=[On], & Shortcut=[C]
+' DGROUP = 17624 bytes, Far = 88976 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:37 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
+' DGROUP = 17656 bytes, Far = 88976 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:37 - MENU - MenuOptions: Options array uses 86 bytes.
+' DGROUP = 17656 bytes, Far = 88992 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:37 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
+' DGROUP = 17656 bytes, Far = 89440 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:37 - MENU - MenuOptions: Options array uses 86 bytes.
+' DGROUP = 17656 bytes, Far = 89440 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:38 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
+' DGROUP = 17656 bytes, Far = 89872 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:38 - MENU - MenuOptions: Options array uses 86 bytes.
+' DGROUP = 17656 bytes, Far = 89888 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:38 - MENU - MenuOptions: X%=2, Y%=4, Z$=Down, & ID=1204
+' DGROUP = 17656 bytes, Far = 90336 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:38 - MENU - MenuOptions: Options array uses 86 bytes.
+' DGROUP = 17656 bytes, Far = 90336 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:38 - MENU - MenuOptions: Item=[Item ^1], Keys=[], State=[On], & Shortcut=[1]
+' DGROUP = 17656 bytes, Far = 90480 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:38 - MENU - MenuOptions: X%=3, Y%=1, Z$=Down, & ID=1301
+' DGROUP = 17656 bytes, Far = 90496 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:38 - MENU - MenuOptions: Options array uses 40 bytes.
+' DGROUP = 17656 bytes, Far = 90496 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:39 - MENU - MenuOptions: Item=[^Mouse...], Keys=[Ctrl+M], State=[On], & Shortcut=[M]
+' DGROUP = 17656 bytes, Far = 90464 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:39 - MENU - MenuOptions: X%=4, Y%=1, Z$=Down, & ID=1401
+' DGROUP = 17656 bytes, Far = 90480 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:39 - MENU - MenuOptions: Options array uses 48 bytes.
+' DGROUP = 17656 bytes, Far = 90480 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:40 - MENU - MenuOptions: Item=[DEBUG.^LOG], Keys=[], State=[On], & Shortcut=[L]
+' DGROUP = 17656 bytes, Far = 90496 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:40 - MENU - MenuOptions: X%=5, Y%=1, Z$=Down, & ID=1501
+' DGROUP = 17656 bytes, Far = 90496 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:40 - MENU - MenuOptions: Options array uses 43 bytes.
+' DGROUP = 17656 bytes, Far = 90496 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:43 - ACTION - ActionManager: Menu item ID=1501 selected with Enter key.
+' DGROUP = 17656 bytes, Far = 90752 bytes, & XMS = 63616 kilobytes.
+
+2025-01-11 21:22:43 - MENU - In MenuManager after the input loop.
+' DGROUP = 17656 bytes, Far = 90800 bytes, & XMS = 63616 kilobytes.
+
+2025-01-11 21:22:48 - MENU - MenuLabels.: X%=32, Y%=4, Label=1, & Mode=Desktop
+' DGROUP = 17656 bytes, Far = 90864 bytes, & XMS = 63616 kilobytes.
+
+2025-01-11 21:22:48 - MENU - MenuOptions: Item=[^New], Keys=[Ctrl+N], State=[On], & Shortcut=[N]
+' DGROUP = 17656 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:48 - MENU - MenuOptions: X%=1, Y%=1, Z$=Down, & ID=1101
+' DGROUP = 17656 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:49 - MENU - MenuOptions: Options array uses 77 bytes.
+' DGROUP = 17656 bytes, Far = 90384 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:49 - MENU - In MenuManager before the input loop.
+' DGROUP = 17656 bytes, Far = 90816 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:52 - MENU - MenuOptions: Item=[E^xit], Keys=[Alt+X], State=[On], & Shortcut=[x]
+' DGROUP = 17656 bytes, Far = 90352 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:52 - MENU - MenuOptions: X%=1, Y%=7, Z$=Up, & ID=1107
+' DGROUP = 17656 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:52 - MENU - MenuOptions: Options array uses 77 bytes.
+' DGROUP = 17656 bytes, Far = 90368 bytes, & XMS = 63296 kilobytes.
+
+2025-01-11 21:22:54 - ACTION - ActionManager: Menu item ID=1107 selected with Enter key.
+' DGROUP = 17656 bytes, Far = 90752 bytes, & XMS = 63616 kilobytes.
+
+2025-01-11 21:22:54 - MENU - In MenuManager after the input loop.
+' DGROUP = 17656 bytes, Far = 90800 bytes, & XMS = 63616 kilobytes.
+
+2025-01-11 21:22:54 - MAIN - In this module after the application loop.
+' DGROUP = 17656 bytes, Far = 90880 bytes, & XMS = 63616 kilobytes.
+
+2025-01-11 21:22:54 - MAIN - Now ending the program.
+' DGROUP = 17656 bytes, Far = 90896 bytes, & XMS = 63616 kilobytes.
