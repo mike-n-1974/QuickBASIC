@@ -75,7 +75,7 @@
 
 ## Repository
 
-### What is contained in the repo directories. 
+### What is contained in the repo directories?
 
 - BC7 – The Basic Compiler and Future Library. Run QBX.BAT to launch the IDE.
 - QBX – This project's directory. Open MAIN.BAS in the IDE to load all modules.
